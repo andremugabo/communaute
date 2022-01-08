@@ -1,0 +1,36 @@
+.bandscontent{
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+}
+.bandsform{
+	width: 100%;
+	height: 100%;
+	/*background: darkred;*/
+	overflow: auto;
+}
+.bandstable{
+	width: 100%;
+	/*background: green;*/
+
+}
+.modal_dialogue{
+	height: 90%;
+}
+.bandstable{
+	width: 100%;
+	height: 100%;
+}
+.bandstable td{
+	width: 100%;
+	padding: 0px 5px;
+}
+.bandstable td select{
+	width: 100%;
+}
+.bandstable td label{
+	/*display: block;*/
+}
+.bandstable td input{
+	width: 100%;
+}

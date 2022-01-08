@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(135deg,#ffe000,#f9eea1e6);
+	padding: 160px 80px;
+	overflow: hidden;
+
+}
+.info_form{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	/*border:1px solid black;*/
+	width: calc(100% - 220px);
+	height: calc(100% - 200px);
+	padding: 10px 20px;
+	background:linear-gradient(135deg,#f9f9f97d,#f9f9f9b5);
+	border-radius: 30px;
+	box-shadow: 0px 1px 10px #474203b3;
+}
+.info{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.form_in{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.form_in form{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.label_input{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	background: black;
+	margin: 10px;
+	border-radius: 12px;
+
+}
+.label_input label img{
+	width: 30px;
+}
+.label_input input{
+	width: calc(100% - 30px);
+	padding: 10px;
+	border:none;
+	outline: none;
+	border-radius: 0px 10px 10px 0px;
+
+}
+.topm{
+	margin-top: 50px;
+}
+.label_input input[type='submit']{
+	width: 100%;
+	border-radius: 12px;
+	background: #bb0d0d;
+	color: white;
+	font-weight: bold;
+	font-size: 1rem;
+	cursor: pointer;
+}
+.label_input input[type='submit']:hover{
+	background: #feb90459;
+
+}
+.form_in span{
+	color:black;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+.screen{
+	display: none;
+}
+
+
+
+@media screen and (max-width: 900px){
+	.info_form{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100vw;
+		height: 100vh;
+	}
+	.info{
+		display: none;
+	}
+	.form_in form{
+		width: 100%;
+	}
+	body{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 10px 20px;
+		overflow: auto;
+
+	}
+	.screen{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin:20px;
+}
+.screen img{
+	width: 40px;
+}
+	.label_input{
+         margin:3px;
+	}
+	.topm{
+	margin-top: 5px;
+}
+}
